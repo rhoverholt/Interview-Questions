@@ -1,0 +1,21 @@
+- Which browsers support HTML5?
+
+IDK. Either just Chrome or essentially all but IE. If I had to choose, I'd pick all but IE...although actually I'd just look it up!
+
+- Which two attributes should every `<img>` element have?
+
+src= seems like the lone mandatory attribute. Perhaps the question is driving at alt=? I'll look it up...
+
+ANSWER: Documentation says both alt= and src= are required fields, but Chrome does not enforce this and allows either or even none.
+
+- What's the difference between a class selector and an id selector?
+
+class selectors may appear as often as desired and are prefixed in the css stylesheet with a '.'. id selectors must be unique and thus identify a single element. id selectors are prefixed by '#" in the .css
+
+- Why is it preferable to use external style sheets instead of inline CSS?
+
+Preferable seems so subjective; however, inline CSS statements seem objectively less flexible. This becomes especially obvious with shared .css like that achieved through well-designed class definitions.
+
+- What are the advantages of using Git?
+
+Once committed, nothing is ever lost. It greatly simplifies the coordination of changes between multiple developers
