@@ -1,0 +1,20 @@
+Where can styles be defined?
+- (external) in a separate css field that is included via the <link> element 
+- (embedded) within a <style> element
+- (inline) via style=
+
+What is a selector and what are the different types of selectors you can use?
+- selectors are used to identify elements and include:
+o type (e.g. header, footer, p, etc.)
+o classes
+o id
+o attribute (p[attr=x])
+o pseudo-class (div:first-child)
+o pseudo-element (div::hover)
+
+What are the advantages of external style sheets?
+-external style sheets can be used within multiple html documents, so reuse is a major advantage
+- condensing all css externally also focuses the css so it is easier to locate and manage
+
+Is there anything you dislike about CSS?
+- capabilities are sometimes limited and/or obscure
